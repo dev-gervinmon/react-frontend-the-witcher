@@ -48,7 +48,7 @@ const TheWitcher = () => {
         </div>
       </div>
 
-      <div className="witcher__what-heading">
+      <div className="witcher__what-heading" id="explore">
         <h2 className="gradient__text">The never-ending expansion of a beloved universe</h2>
         <div className="div1"/>
         <div className="div2"/>
