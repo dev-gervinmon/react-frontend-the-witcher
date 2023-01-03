@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Header from './containers/header/Header';
 import Signs from './components/signs/Signs';
+import TheWitcher from './containers/thewitcher/TheWitcher';
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
         <Navbar />
         <Header />
         <Signs />
-        <p>Who is Geralt</p>
+        <TheWitcher />
         <p>Features</p>
         <p>Reviews</p>
         <p>Footer</p>

@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <div className="witcher__navbar">
-
+      
       <div className="witcher__navbar-links">
         <div className="witcher__navbar-menu">
           {

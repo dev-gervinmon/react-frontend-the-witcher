@@ -5,7 +5,7 @@ import headerImg from '../../assets/img/geralt.png';
 
 const Header = () => {
   return (
-    <div className="witcher__header" id="home">
+    <div className="witcher__header gradient__header" id="home">
         <div className="witcher__header-image">
             <img src={headerImg} alt="header image"/>
         </div>

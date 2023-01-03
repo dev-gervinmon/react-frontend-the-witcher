@@ -1,9 +1,17 @@
 import React from 'react'
 import './feature.css';
 
-const Feature = () => {
+const Feature = ({ text, imgUrl }) => {
   return (
-    <div>Feature</div>
+    <>
+      <div className="witcher__feature-container_title">
+        <h3>{text}</h3>
+      </div>
+      
+      <div className="witcher__feature-container_image">
+        <img src={imgUrl} alt={imgUrl}/>
+      </div>
+    </>
   )
 }
 
