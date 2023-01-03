@@ -1,0 +1,39 @@
+.witcher__signs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.witcher__signs img{
+    flex: 1;
+    max-width: 80px;
+    max-height: 80px;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .witcher__signs img {
+        max-width: 60px;
+        max-height: 60px;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .witcher__signs img {
+        max-width: 40px;
+        max-height: 40px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .witcher__signs img {
+        max-width: 20px;
+        max-height: 20px;
+    }
+}
