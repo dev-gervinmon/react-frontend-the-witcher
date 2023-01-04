@@ -2,6 +2,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1rem;
+}
+
+.witcher__what-main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:  #DCE1E5;
+}
+
+.witcher__what-main h1 {
+    font-family: "Witcher";
+    color: #8B969C;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    text-shadow: 2px 3px black;
 }
 
 .witcher__what__feature-container {
@@ -10,26 +31,10 @@
     justify-content: space-between;
     padding: 0rem 0rem 0rem 2rem;
     background: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(246,99,99,1) 50%, rgba(218,218,218,1) 100%);
-    margin-top: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
 }
 
-.witcher__what-main {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1rem 0rem 0rem 1rem;
-    background: black
-}
-
-.witcher__what-main h1 {
-    font-family: var(--font-family);
-    color: #dfdfdf;
-    font-size: 55px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: -0.04em;
-}
 
 .witcher__what-heading {
     background-color: black;
@@ -39,11 +44,11 @@
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding: 1rem;
+    padding: 3rem;
 }
 
 .witcher__what-heading h2 {
-    font-family: var(--font-family);
+    font-family: "Witcher";
     font-size: 50px;
     margin-bottom: 0.5rem;
     text-align: center;
@@ -66,32 +71,29 @@
 }
 
 .witcher__what-container {
+    border: 1px solid red;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    padding: 1rem;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: flex-start;
     background-color: black;
-    padding: 2rem 2rem;
 }
 
 .witcher__what-container h1 {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 1rem 1rem;
     font-size: 50px;
     line-height: 75px;
+    font-family: "Witcher";
 }
 
 .witcher__what-container__feature-container {
     display: flex;
-    align-items: center;
+    flex-direction: column-reverse;
     justify-content: end;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    background: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(246,99,99,1) 50%, rgba(218,218,218,1) 100%);
 }
 
 .witcher__what-container .div1 {
@@ -118,8 +120,12 @@
     margin-bottom: 0.25rem;
 }
 
-@media screen and (max-width: 768px) {
-    .witcher__what-container h2{
+@media screen and (max-width: 1024px) {
+    .witcher__what-main h1 {
         font-size: 30px;
+        line-height: 50px;
+    }
+    .witcher__what-heading h2 {
+        font-size: 40px;
     }
 }

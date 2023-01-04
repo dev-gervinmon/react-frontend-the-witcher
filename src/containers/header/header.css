@@ -3,6 +3,8 @@
     background-color: rgb(36, 35, 35);
     justify-content: center;
     align-items: center;
+    border-radius: 0.5rem;
+    margin: 2rem;
 }
 
 .witcher__header-content {
@@ -14,12 +16,20 @@
 }
 
 .witcher__header-content h1 {
-    font-family: var(--font-family);
-    font-size: 62px;
+    font-family: "Witcher";
+    font-size: 50px;
     line-height: 100px;
-    letter-spacing: -0.04em;
     text-align: left;
-    color: white;
+    color: rgba(255, 255, 255, 0.637);
+    letter-spacing: 0.25rem;
+    text-shadow: 1px 2px black;
+
+}
+
+.witcher__header-content strong {
+    font-size: 70px;
+    color: #DCE1E5;
+    text-shadow: 0.25rem 0.25rem black;
 }
 
 .witcher__header-image {
@@ -33,23 +43,55 @@
     width: 100%;
 }
 
-@media screen and (max-width: 910px){
+@media screen and (max-width: 1100px){
     .witcher__header-content h1 {
-        font-size: 50px;
-        line-height: 60px;
+        font-size: 40px;
+        line-height: 80px;
     }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 1024px) {
+    .witcher__header {
+        margin: 1rem;
+    }
     .witcher__header-content h1 {
         font-size: 30px;
-        line-height: 40px;
+        line-height: 50px;
+    }
+    .witcher__header-content strong {
+        font-size: 50px;
+        color: white;
     }
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 630px) {
+    .witcher__header {
+        margin: 0.5rem;
+    }
     .witcher__header-content h1 {
         font-size: 20px;
         line-height: 30px;
+    }
+    .witcher__header-content strong {
+        font-size: 30px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .witcher__header {
+        margin: 0;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .witcher__header-content h1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .witcher__header-content strong {
+        font-size: 20px;
+        color: white;
     }
 }

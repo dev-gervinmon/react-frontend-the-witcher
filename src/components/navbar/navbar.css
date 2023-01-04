@@ -3,6 +3,8 @@
     justify-content: center;
     align-items: center;
     padding: 0 1rem;
+    color:  #AD1D1A;
+    background-color:#DCE1E5;
 }
 
 .witcher__navbar-menu {
@@ -15,18 +17,19 @@
     justify-content: flex-end;
     flex-direction: column;
     text-align: start;
-    background: rgba(221, 218, 218, 0.9);
+    background: #DCE1E5;
     padding: 2rem;
     position: absolute;
-    top: 97px;
+    top: 60px;
     left: 0;
     min-width: 100%;
     min-height: 100%;
+    z-index: 1;
 }
 
 .witcher__navbar-menu_container p {
-    margin: 0;
-    padding: 0;
+    font-family: "Witcher";
+    margin: 2rem 0rem;
 }
 
 .witcher__navbar-links {
@@ -48,21 +51,25 @@
 .witcher__navbar-links_container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .witcher__navbar-links_container p, button,
 .witcher__navbar-menu_container p {
     font-size: 18px;
-    padding: 2rem;
+    padding: 0rem 2rem;
     font-weight: 600;
-    font-family: var(--font-family);
+    font-family: "Witcher";
 }
 
 .witcher__navbar-links_container button {
-    border-radius: 20px;
-    background-color: #EFEFEF;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    background-color: #AD1D1A;
     cursor: pointer;
-    padding: 1rem;
+    padding: 0.25rem 1rem;
+    color: #DCE1E5;
 }
 
 @media screen and (max-width: 1100px) {

@@ -2,6 +2,7 @@ import React from 'react'
 import './theWitcher.css';
 
 import Feature from '../../components/feature/Feature';
+import MiniFeature from '../../components/miniFeature/MiniFeature';
 
 import whatBg from '../../assets/img/what-bg.png';
 import writerWitcher from '../../assets/img/writer-witcher.webp';
@@ -42,7 +43,7 @@ const TheWitcher = () => {
 
       <div className="witcher__what-main">
         <div/>
-        <h1>A Witcher is simply a monster designed to kill monsters...</h1>
+        <h1>A Witcher is simply a <br/> monster designed to kill monsters...</h1>
         <div className="witcher__what__feature-container gradient__header">
           <Feature text={quote} imgUrl={whatBg}/>
         </div>
@@ -62,8 +63,8 @@ const TheWitcher = () => {
               <div key={index}>
                 <h1>{data.h1}</h1>
                 <div className={data.className}/>
-                <div className="witcher__what-container__feature-container">
-                  <Feature text={data.text} imgUrl={data.imgUrl} />
+                <div className="witcher__what-container__feature-container gradient__feature">
+                  <MiniFeature text={data.text} imgUrl={data.imgUrl} />
                 </div>
               </div>
             )

@@ -12,7 +12,6 @@ const Menu = () => (
     <p><a href="#features">Features</a></p>
     <p><a href="#reviews">Reviews</a></p>
   </>
-
 )
 
 const Navbar = () => {
@@ -40,12 +39,12 @@ const Navbar = () => {
         </div>
 
         <div className="witcher__navbar-logo">
-          <img src={logo} alt="logo" />
+          <a href=""><img src={logo} alt="logo" /></a>
         </div>
 
         <div className="witcher__navbar-links_container">
           <Menu/>
-          <button type="button">Learn More</button>
+          <button type="button">More</button>
         </div>
       </div>
     </div>
