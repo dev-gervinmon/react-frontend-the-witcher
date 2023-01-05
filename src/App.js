@@ -5,18 +5,18 @@ import "./assets/font/TheWitcher.ttf";
 
 import Navbar from './components/navbar/Navbar';
 import Header from './containers/header/Header';
-import Signs from './components/signs/Signs';
-import TheWitcher from './containers/thewitcher/TheWitcher';
+import WhatWitcher from './containers/whatWitcher/WhatWitcher';
+import Stats from './components/stats/Stats';
+import Reviews from './containers/reviews/Reviews';
 
 const App = () => {
   return (
     <div className="App">
         <Navbar />
         <Header />
-        <Signs />
-        <TheWitcher />
-        <p>Features</p>
-        <p>Reviews</p>
+        <WhatWitcher />
+        <Stats />
+        <Reviews/>
         <p>Footer</p>
     </div>
   )

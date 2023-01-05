@@ -1,23 +1,24 @@
 .witcher__feature-container_title {
-    flex: 2;
+    display: flex;
+    flex: 1;
     width: 100%;
     height: auto;
-    margin: 2rem;
 }
 
 .witcher__feature-container_title h3 {
     font-family: "Witcher";
-    color: #8B969C;
-    font-size: 90px;
-    line-height: 300px;
+    color: #8B160D;
+    font-size: 30px;
+    line-height: 80px;
     text-align: left;
     font-weight: 800;
     font-style: italic;
     letter-spacing: 0.25rem;
-    text-shadow: 2px 3px black;
+    text-shadow: 2px 2px #8B969C;
 }
 
 .witcher__feature-container_image {
+    display: flex;
     flex: 1;
 }
 
@@ -26,24 +27,23 @@
     height: auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
     .witcher__feature-container_title h3 {
         font-size: 20px;
         line-height: 50px;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 910px) {
     .witcher__feature-container_title h3 {
         font-size: 15px;
         line-height: 40px;
     }
 }
 
-@media screen and (max-width: 640px) {
-    .witcher__feature-container {
-        flex-direction: column;
-        padding: 0rem 1rem;
-        margin: 0;
+@media screen and (max-width: 740px) {
+    .witcher__feature-container_title h3 {
+        font-size: 10px;
+        line-height: 20px;
     }
 }

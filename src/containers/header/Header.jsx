@@ -5,12 +5,12 @@ import headerImg from '../../assets/img/geralt.png';
 
 const Header = () => {
   return (
-    <div className="witcher__header gradient__header" id="home">
+    <div className="witcher__header" id="home">
         <div className="witcher__header-image fade-in-fwd">
-            <img src={headerImg} alt="header image"/>
+            <img src={headerImg} alt="header"/>
         </div>
         <div className="witcher__header-content fade-in-fwd">
-            <h1>This World Doesn't Need A <br/><strong>Hero;</strong> <br/>It Needs A <br/><strong>Professional.</strong><br/></h1>
+            <h1>Get to know your monster hunter for hire</h1>
         </div>
     </div>
   )

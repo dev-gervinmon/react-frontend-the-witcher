@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
 }
 
 .witcher__what-main {
@@ -30,21 +29,18 @@
     align-items: center;
     justify-content: space-between;
     padding: 0rem 0rem 0rem 2rem;
-    background: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(246,99,99,1) 50%, rgba(218,218,218,1) 100%);
-    margin: 1rem;
-    border-radius: 1rem;
 }
 
 
 .witcher__what-heading {
-    background-color: black;
+    background-color: #8B969C;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .witcher__what-heading h2 {
@@ -52,6 +48,8 @@
     font-size: 50px;
     margin-bottom: 0.5rem;
     text-align: center;
+    color: #8B160D;
+    text-shadow: 1px 1px #DCE1E5;
 }
 
 .witcher__what-heading div {
@@ -71,56 +69,69 @@
 }
 
 .witcher__what-container {
-    border: 1px solid red;
     display: flex;
-    flex-direction: row;
-    align-items: space-between;
-    justify-content: flex-start;
-    background-color: black;
+    align-items: flex-start;
+    background-color:  #DCE1E5;
 }
 
 .witcher__what-container h1 {
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    color: #8B160D;
+    text-shadow: 1px 1px #8B969C;
     padding: 1rem 1rem;
     font-size: 50px;
     line-height: 75px;
     font-family: "Witcher";
+    text-align: center;
 }
 
 .witcher__what-container__feature-container {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: end;
+    margin: 1rem;
+    border-radius: 1rem;
 }
 
-.witcher__what-container .div1 {
-    width: 70%;
+.witcher__what-container__feature-container #birth h3,
+.witcher__what-container__feature-container #growth h3,
+.witcher__what-container__feature-container #result h3{
+    font-size: 30px;
+    line-height: 40px;
+    padding: 1rem;
+    text-align: center;
+    color: #DCE1E5;
+    text-shadow: 1px 1px #8B969C;
+}
+
+.witcher__what-container__feature-container #growth,
+.witcher__what-container__feature-container #result {
+    padding: 0rem 1rem;
+}
+
+.witcher__what-container__feature-container #birth img,
+.witcher__what-container__feature-container #growth img,
+.witcher__what-container__feature-container #result img {
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.witcher__what-container .div1,
+.witcher__what-container .div2,
+.witcher__what-container .div3 {
     height: 3px;
     background: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(246,99,99,1) 50%, rgba(218,218,218,1) 100%);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 0.25rem;
+    width: 70%;
 }
 
 .witcher__what-container .div2 {
     width: 50%;
-    height: 3px;
-    background: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(246,99,99,1) 50%, rgba(218,218,218,1) 100%);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    margin-bottom: 0.25rem;
 }
 
 .witcher__what-container .div3 {
     width: 30%;
-    height: 3px;
-    background: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(246,99,99,1) 50%, rgba(218,218,218,1) 100%);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    margin-bottom: 0.25rem;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
     .witcher__what-main h1 {
         font-size: 30px;
         line-height: 50px;
@@ -128,4 +139,25 @@
     .witcher__what-heading h2 {
         font-size: 40px;
     }
+    .witcher__what-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .witcher__what-main h1 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .witcher__what__feature-container {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0rem 1rem;
+        margin: 0;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
 }

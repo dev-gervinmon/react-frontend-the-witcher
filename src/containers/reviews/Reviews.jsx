@@ -3,7 +3,8 @@ import './reviews.css';
 
 const Reviews = () => {
   return (
-    <div>Reviews</div>
+    <div className="witcher__reviews-main">
+    </div>
   )
 }
 

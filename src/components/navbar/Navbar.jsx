@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './navbar.css';
 
 import logo from '../../assets/img/logo.svg';
@@ -7,9 +7,8 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 const Menu = () => (
   <>
     <p><a href="#home">Home</a></p>
-    <p><a href="#witcher">The Witcher</a></p>
     <p><a href="#explore">Explore</a></p>
-    <p><a href="#features">Features</a></p>
+    <p><a href="#features">Community</a></p>
     <p><a href="#reviews">Reviews</a></p>
   </>
 )
@@ -17,9 +16,23 @@ const Menu = () => (
 const Navbar = () => {
 
   const [toggleMenu, setToggleMenu] = useState(false)
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      };
+    }
+    window.addEventListener('scroll', onScroll);
+    return () => window.removeEventListener('scroll', onScroll);
+
+  })
 
   return (
-    <div className="witcher__navbar">
+    <div className="witcher__navbar" id={scrolled ? "scrolled" : ''}>
       
       <div className="witcher__navbar-links">
         <div className="witcher__navbar-menu">
