@@ -1,0 +1,62 @@
+.witcher_materials-section {
+    margin: 3rem;
+    max-width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-center;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 10px 20px 20px 10px rgba(0, 0, 0, 0.19);
+}
+
+.witcher_material-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.witcher_material-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.witcher_material-title {
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    object-fit: contain;
+    position: relative;
+    left: -100%;
+    top: 30%;
+}
+
+@media screen and (max-width: 1024px) {
+    #div7, #div1, #div6 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #div5 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .witcher_materials-section {
+        margin: 0rem 1rem;
+        height: 300px;
+    }
+    #div2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #div3 {
+        display: none;
+    }
+}

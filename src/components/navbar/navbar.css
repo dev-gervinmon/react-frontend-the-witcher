@@ -4,6 +4,7 @@
     align-items: center;
     padding: 0.25rem 1rem; 
     background-color:#DCE1E5;
+    text-transform: uppercase;
 }
 
 .witcher__navbar-menu {
@@ -56,6 +57,7 @@
 
 .witcher__navbar-links_container p, button,
 .witcher__navbar-menu_container p {
+    text-transform: uppercase;
     font-size: 18px;
     padding: 0rem 2rem;
     font-weight: 600;
