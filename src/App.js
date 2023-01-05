@@ -7,7 +7,6 @@ import Navbar from './components/navbar/Navbar';
 import Header from './containers/header/Header';
 import WhatWitcher from './containers/whatWitcher/WhatWitcher';
 import Stats from './components/stats/Stats';
-import Reviews from './containers/reviews/Reviews';
 
 const App = () => {
   return (
@@ -16,7 +15,10 @@ const App = () => {
         <Header />
         <WhatWitcher />
         <Stats />
-        <Reviews/>
+        <p>Materials</p>
+        <p>Community</p>
+        <p>Products</p>
+        <p>Newsletter</p>
         <p>Footer</p>
     </div>
   )

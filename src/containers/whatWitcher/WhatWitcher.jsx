@@ -20,7 +20,7 @@ const WhatWitcher = () => {
 
   const etcData = ["Ciri, the Child of Prophecy", "Yennefer of Vengerberg", "The Origin of Geralt's ''The Butcher of Blaviken''", "Letho, the Assassin of Kings"]
   return (
-    <div className="whatWitcher-container">
+    <div className="whatWitcher-container" id="explore">
 
       <div className="whatWitcher__title-container"><h3>LORE</h3></div>
 
