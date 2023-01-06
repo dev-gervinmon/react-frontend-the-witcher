@@ -22,7 +22,7 @@ const Products = () => {
     ]
 
   return (
-    <div className="products-highlight-section">
+    <div className="products-highlight-section" id="products">
 
         <div className="products-highlight__logo">
             <img src={cdprLogo} alt="logo"/>
