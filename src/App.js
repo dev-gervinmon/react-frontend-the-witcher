@@ -8,6 +8,7 @@ import Header from './containers/header/Header';
 import WhatWitcher from './containers/whatWitcher/WhatWitcher';
 import Stats from './components/stats/Stats';
 import Materials from './containers/materials/Materials';
+import Products from './containers/products/Products';
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
         <WhatWitcher />
         <Stats />
         <Materials />
-        <p>Products</p>
+        <Products />
         <p>Newsletter</p>
         <p>Footer</p>
     </div>

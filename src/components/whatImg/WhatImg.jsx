@@ -8,7 +8,7 @@ const WhatImg = ({ imgUrl, text }) => {
           <img src={imgUrl} alt={imgUrl}/>
         </div>
         <div className="whatImg-text-container">
-          <p><a href="http://google.com">{text}</a></p>
+          <p>{text}</p>
         </div>
     </div></a>
   )
