@@ -8,7 +8,7 @@ const Menu = () => (
   <>
     <p><a href="#home">Home</a></p>
     <p><a href="#explore">Explore</a></p>
-    <p><a href="#features">Community</a></p>
+    <p><a href="#products">Products</a></p>
     <p><a href="#reviews">Reviews</a></p>
   </>
 )
@@ -52,7 +52,7 @@ const Navbar = () => {
         </div>
 
         <div className="witcher__navbar-logo">
-          <a href=""><img src={logo} alt="logo" /></a>
+          <a href="/"><img src={logo} alt="logo" /></a>
         </div>
 
         <div className="witcher__navbar-links_container">

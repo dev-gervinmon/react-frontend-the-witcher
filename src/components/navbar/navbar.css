@@ -70,7 +70,11 @@
     background-color: #ffffff;
     cursor: pointer;
     padding: 0.25rem 1rem;
-    color: black;
+    color: #AD1D1A;
+}
+
+a:hover {
+    color: #AD1D1A;
 }
 
 @media screen and (max-width: 1100px) {

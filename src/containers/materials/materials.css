@@ -14,23 +14,26 @@
     width: 100%;
     align-items: baseline;
     justify-content: flex-start;
+    overflow: hidden;
 }
 
 .witcher_material-bg {
     width: 100%;
     height: 100%;
     object-fit: fill;
+    transition: 0.5s all ease-in-out;
+}
+
+.witcher_material-bg:hover {
+    transform:scale(1.2);
 }
 
 .witcher_material-title {
-    padding: 2rem;
     width: 100%;
-    height: 100%;
-    z-index: 9999;
+    height: 200px;
     object-fit: contain;
     position: relative;
     left: -100%;
-    top: 30%;
 }
 
 @media screen and (max-width: 1024px) {

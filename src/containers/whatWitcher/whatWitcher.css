@@ -1,5 +1,5 @@
 .whatWitcher-container {
-    margin: 0rem 3rem;
+    margin: 0rem 4rem;
     display: flex;
     flex-direction: column;
 }
@@ -20,7 +20,7 @@
 .whatWitcher__content-container {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .whatWitcher-list-container {
@@ -34,7 +34,6 @@
 }
 
 .whatWitcher-box-container {
-    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -69,5 +68,8 @@
     .whatWitcher__content-container {
         flex-direction: column;
         align-items: center;
+    }
+    .whatWitcher-list-container {
+        margin-top: 2rem;
     }
 }

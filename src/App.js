@@ -17,7 +17,6 @@ const App = () => {
         <WhatWitcher />
         <Stats />
         <Materials />
-        <p>Community</p>
         <p>Products</p>
         <p>Newsletter</p>
         <p>Footer</p>

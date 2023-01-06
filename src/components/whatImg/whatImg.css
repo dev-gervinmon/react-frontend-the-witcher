@@ -2,14 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 1rem;
 }
 
 .whatImg-img-container {
     display: flex;
     width: 500px;
     height: 300px;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .whatImg-img-container img {

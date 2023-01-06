@@ -55,6 +55,7 @@ const Materials = () => {
         },
     ]
   return (
+    <a href="https://google.com">
     <div className="witcher_materials-section">
         {
             materialsData.map((data, index) => {
@@ -66,7 +67,7 @@ const Materials = () => {
                 )
             })
         }
-    </div>
+    </div></a>
   )
 }
 
