@@ -46,7 +46,7 @@ const Products = () => {
         </div>
 
         <div className="products-highlight__button">
-            <button>See all Witcher merch</button>
+            <a href="https://google.com"><button>See all Witcher merch</button></a>
         </div>
     </div>
   )

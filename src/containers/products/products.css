@@ -57,3 +57,14 @@ button {
 button:hover {
     box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+@media screen and (max-width: 1024px) {
+    .products-highlight-section {
+        align-items: center;
+        margin: 2rem;
+    }
+    .products-highlight__container {
+        flex-direction: column;
+        max-height: 100%;
+    }
+}
