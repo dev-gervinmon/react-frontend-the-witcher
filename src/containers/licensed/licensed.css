@@ -1,6 +1,6 @@
 .licensed-section {
     min-width: 100%;
-    min-height: 700px;
+    height: 700px;
     display: flex;
     flex-direction: column;
 }
@@ -42,6 +42,7 @@
 @media screen and (max-width: 1024px) {
     .licensed-section {
         align-items: center;
+        height: inherit;
     }
     .licensed-products-section {
         margin: 3rem;

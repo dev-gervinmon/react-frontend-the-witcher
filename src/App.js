@@ -10,6 +10,7 @@ import Stats from './components/stats/Stats';
 import Materials from './containers/materials/Materials';
 import Products from './containers/products/Products';
 import Licensed from './containers/licensed/Licensed';
+import Newsletter from './containers/newsletter/Newsletter';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Materials />
         <Products />
         <Licensed />
+        <Newsletter />
         <p>Footer</p>
     </div>
   )
