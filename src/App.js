@@ -11,6 +11,7 @@ import Materials from './containers/materials/Materials';
 import Products from './containers/products/Products';
 import Licensed from './containers/licensed/Licensed';
 import Newsletter from './containers/newsletter/Newsletter';
+import Footer from './containers/footer/Footer';
 
 const App = () => {
   return (
@@ -23,7 +24,7 @@ const App = () => {
         <Products />
         <Licensed />
         <Newsletter />
-        <p>Footer</p>
+        <Footer />
     </div>
   )
 }
